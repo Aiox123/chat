@@ -1,0 +1,9 @@
+server:
+  port: 8091
+spring:
+  # MySQL 配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/note_chat?characterEncoding=utf-8&serverTimezone=UTC
+    username: # your username of mysql
+    password: # your password of mysql
+    driver-class-name: com.mysql.cj.jdbc.Driver
