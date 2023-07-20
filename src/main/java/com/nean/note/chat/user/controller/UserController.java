@@ -1,9 +1,9 @@
-package com.nean.note.chat.controller;
+package com.nean.note.chat.user.controller;
 
 import com.nean.note.chat.common.RestResponse;
-import com.nean.note.chat.domain.dto.LoginUserDto;
-import com.nean.note.chat.domain.dto.UserDto;
-import com.nean.note.chat.service.UserService;
+import com.nean.note.chat.user.domain.dto.LoginUserDto;
+import com.nean.note.chat.user.domain.dto.UserDto;
+import com.nean.note.chat.user.service.UserService;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

@@ -1,12 +1,12 @@
-package com.nean.note.chat.service.impl;
+package com.nean.note.chat.user.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.nean.note.chat.common.RestResponse;
-import com.nean.note.chat.domain.dto.LoginUserDto;
-import com.nean.note.chat.domain.dto.UserDto;
-import com.nean.note.chat.domain.pojo.User;
-import com.nean.note.chat.mapper.UserMapper;
-import com.nean.note.chat.service.UserService;
+import com.nean.note.chat.user.domain.dto.LoginUserDto;
+import com.nean.note.chat.user.domain.dto.UserDto;
+import com.nean.note.chat.user.domain.pojo.User;
+import com.nean.note.chat.user.mapper.UserMapper;
+import com.nean.note.chat.user.service.UserService;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;

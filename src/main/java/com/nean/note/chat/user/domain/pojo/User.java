@@ -1,4 +1,4 @@
-package com.nean.note.chat.domain.pojo;
+package com.nean.note.chat.user.domain.pojo;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

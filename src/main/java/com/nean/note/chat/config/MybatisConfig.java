@@ -7,7 +7,7 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@MapperScan("com.nean.note.chat.mapper")
+@MapperScan("com.nean.note.chat.**.mapper")
 @Configuration
 public class MybatisConfig {
 
